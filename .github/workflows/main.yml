@@ -23,7 +23,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "cloudcvCDN" --name "cloudcv" --resource-group "cloudcv-rg"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "cloudcvcdn" --name "cloudcv" --resource-group "cloudcv-rg"
 
   # Azure logout
     - name: logout
