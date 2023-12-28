@@ -5,7 +5,6 @@
     --color4: #96a1a6;
     --color5: #ddcccc;
 }
-}
 * {
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
@@ -14,7 +13,8 @@ html {
 }
 body { margin: 0;
        padding: 0;
-       background-color: #fff font-size: 12px;
+       background-color: #fff;
+       font-size: 12px;
        -webkit-font-smoothing: subpixel-antialiased;
 }
 * { box-sizing: border-box;
@@ -133,7 +133,7 @@ li:last-child{
 */
 .page { width: 1000px;
         min-height: 29.7cm;
-        margin: 1cm auto;
+        margin: .5cm auto;
 
         background: white;
         padding: 20px 50px;
