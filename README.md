@@ -1,1 +1,3 @@
-# Azure Function for Website visit counter
+# Azure Static Website Resume
+
+Static Website with azure function visit counter

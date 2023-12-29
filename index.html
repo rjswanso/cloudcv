@@ -11,7 +11,7 @@
         });
 
 
-        const functionApi = 'https://cloudcvcounter.azurewebsites.net/api/HttpTrigger1?code=KDI-gB3fRRAPSyxeqcAg7rwBi7DPb1ZZz-3FO388Sz_rAzFu_AbSIw==';
+        const functionApi = 'https://cloudcvcounter.azurewebsites.net/api/HttpTrigger1?code=l1SRNhgPkbyCBuzrL5m-z3RGLZFdw1noC1ou6YPKgROPAzFu4Mt8UA==';
 
         const getVisitCount = () => {
           let count = 5;
@@ -22,6 +22,7 @@
             .then(response => {
               count = response;
               document.getElementById('counter').innerText = count;
+              console.log("Hello 👋, you are visitor number - " + count);
             }).catch(function (error) {
               console.log(error);
             });
