@@ -17,7 +17,11 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
+<<<<<<< HEAD
             az storage blob upload-batch --account-name cloudcvstore --auth-mode login -d '$web' -s .
+=======
+            az storage blob upload-batch --account-name cloudcvstore --auth-mode key -d '$web' -s . --overwrite
+>>>>>>> 20d1515261142d6ae5ed690811061c054b6f6061
             git 
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
