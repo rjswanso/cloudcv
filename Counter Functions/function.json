@@ -1,0 +1,35 @@
+{
+    "bindings": [
+        {
+            "authLevel": "function",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get",
+                "post"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        },
+        {
+            "name": "inputDocument",
+            "direction": "in",
+            "type": "cosmosDB",
+            "connection": "cloudcvcounterdb-DOCUMENTDB",
+            "databaseName": "counterdb",
+            "containerName": "counterdbcont"
+        },
+        {
+            "name": "outputDocument",
+            "databaseName": "counterdb",
+            "containerName": "counterdbcont",
+            "connection": "cloudcvcounterdb-DOCUMENTDB",
+            "direction": "out",
+            "type": "cosmosDB"
+        }
+    ]
+}
