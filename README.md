@@ -1,3 +1,3 @@
-# Azure Static Website Resume
+# Cloud Resume Challenge
 
-Static Website with azure function visit counter #
+This is my static website hosted on both AWS and Azure. It includes visit counter functions written in JavaScript for Azure and Python for AWS. 
